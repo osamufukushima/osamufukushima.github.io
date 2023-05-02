@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+/* @import"https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"; */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+/* General setting */
+/*-----------------------------------------------------------------------------------*/
+html,body {
+	overflow-x: hidden;
+    min-height: 100%;
+    font-size: 16px;
+     margin: auto;
+}
+
+body {
+  font-family:"游明朝体", "Yu Mincho", YuMincho, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+  /* font-family: sans-serif; */
+  /* font-family: "Times New Roman","ヒラギノ明朝 ProN","Hiragino Mincho ProN","Yu Mincho Light","YuMincho","Yu Mincho","游明朝体",sans-serif; */
+  /* font-family:"ヒラギノ明朝 ProN","Hiragino Mincho ProN","Yu Mincho Light","YuMincho","Yu Mincho","游明朝体",sans-serif; */
+	/* font-family: "ヒラギノ角ゴシック","Hiragino Sans","メイリオ",Meiryo,sans-serif; */
+	-webkit-text-size-adjust: none;
+    background: linear-gradient(#fff, #fff2e5 400px); /* Background gradation */
+	color: #000;
+	line-height: 2;		/*行間*/
+}
+
+@media(min-width: 1290px) {
+  body {
+  width: 1290px;
+  }
+}
+
+/* Japanese environment */
+.jpch{
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+}
+
+/* Margin reset*/
+figure {margin: 0;}
+dd {margin: 0;}
+
+/* Table setting */
+table {border-collapse:collapse;}
+
+/* Image setteing */
+img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
+
+/* Section setting */
+section + section {
+	padding-top: 30px;	/*sectionの間に空けるスペース*/
+}
+
+/*iframe tag*/
+iframe {width: 100%;}
+
+
+
+/* Link texts */
+/*-----------------------------------------------------------------------------------*/
+a {
+	color: #000;
+}
+
+a:hover {/*マウスオン時*/
+	color: #008080;
+}
+
+
+
+/* Header */
+/*-----------------------------------------------------------------------------------*/
+header {
+    text-align: center;
+    padding-top: 10px;		/*上余白*/
+    margin-bottom: -5px;
+    /* font-family: Roman; */
+}
+
+header #name {
+    margin: 0;
+    letter-spacing: 0.05rem;
+    font-size: 1.5rem;
+    /* text-shadow: 2px 2px 2px rgba(0,0,0,0.2);    */
+
+}
+header #name a {
+    text-decoration: none;
+}
+
+
+/* Menubar */
+/*-----------------------------------------------------------------------------------*/
+/*ボックス*/
+#menubar ul {
+    list-style: none;
+	text-align: center;
+  border-bottom: 3px solid #008080;
+}
+
+/* #menubar ul:before{
+  content: "";
+  background: #000;	/*下線の色*/
+  /* height: 3px;		/*下線の高さ*/
+  /* position: static;
+  left: 50%;
+  top: 110px; */
+   /* margin-right: -50%; */
+   /* transform: translate(-50%, -50%);
+  width: 100%; */
+  /* align-content: center; */
+/* } */
+
+/* Link */
+#menubar a {
+	display: block;
+    text-decoration: none;
+	/* padding: 0px 20px;	 */
+}
+/* List */
+#menubar li {
+	display: inline-block;	/*メニューを横並び*/
+	text-align: center;
+    position: relative;
+    /* padding: 0px 20px; */
+    padding: 0px 3%;
+}
+
+
+
+/* main */
+/*-----------------------------------------------------------------------------------*/
+main {
+    display: block;
+    margin: 50px 10%;	/*上下、左右*/
+}
+
+main h2 {
+    display: inline-block;
+	font-size: 1.6rem;
+	margin-bottom: 50px;
+    letter-spacing: 0.1rem;
+    /* padding-bottom:2px; */
+    border-bottom: 3px solid #000;
+}
+
+main h3 {
+	font-size: 1.4rem;
+	margin-bottom: 50px;
+  line-height: 1.5}
+
+main p {
+	margin-bottom: 20px;
+}
+
+h2 + h3, h2 + p, h3 + p {
+    margin-top: -30px;
+}
+
+
+/* Two columns */
+/*-----------------------------------------------------------------------------------*/
+
+.bl_row .bl_col {
+  margin-bottom: 40px
+}
+
+@media(min-width: 768px) {
+  .bl_row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 50px
+  }
+  .bl_row .bl_col {
+    width: 48%;
+    margin-bottom: 0
+  }
+}
+
+@media(min-width: 1290px) {
+  .bl_row {
+    margin-bottom: 60px
+  }
+  .bl_row .bl_col {
+    width: 510px
+  }
+}
+
+
+
+/*-----------------------------------------------------------------------------------*/
+
+
+.clearfix::after {content: "";display: block;clear: both;}
+.color-theme, .color-theme a {color: #fff998 !important;}
+.color-check, .color-check a {color: #fff000 !important;}
+.c {text-align: center !important;}
+.ws {width: 95%;display: block;}
+.wl {width: 95%;display: block;}
+.large {font-size: 2rem;}
+.mb30 {margin-bottom: 30px !important;}
+.look {display: inline-block;border: 1px solid #ccc;padding: 5px 20px;background: rgba(0,0,0,0.03);border-radius: 5px;margin: 5px 0;}
+.ofx {overflow-x: hidden;}
