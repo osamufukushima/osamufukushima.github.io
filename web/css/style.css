@@ -9,7 +9,7 @@ html,body {
 	overflow-x: hidden;
     min-height: 100%;
     font-size: 16px;
-     margin: auto;
+     margin: auto; /* center */
 }
 
 body {
@@ -38,6 +38,11 @@ body {
 /* Margin reset*/
 figure {margin: 0;}
 dd {margin: 0;}
+
+/* List setting */
+ul {
+  list-style: none;
+}
 
 /* Table setting */
 table {border-collapse:collapse;}
@@ -145,11 +150,11 @@ main h2 {
 
 main h3 {
 	font-size: 1.4rem;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
   line-height: 1.5}
 
 main p {
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 
 h2 + h3, h2 + p, h3 + p {
