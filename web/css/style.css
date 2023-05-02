@@ -19,7 +19,7 @@ body {
   /* font-family:"ヒラギノ明朝 ProN","Hiragino Mincho ProN","Yu Mincho Light","YuMincho","Yu Mincho","游明朝体",sans-serif; */
 	/* font-family: "ヒラギノ角ゴシック","Hiragino Sans","メイリオ",Meiryo,sans-serif; */
 	-webkit-text-size-adjust: none;
-    background: linear-gradient(#fff, #fff2e5 400px); /* Background gradation */
+    background: linear-gradient(#fff, #fff6ef 400px); /* Background gradation */
 	color: #000;
 	line-height: 2;		/*行間*/
 }
