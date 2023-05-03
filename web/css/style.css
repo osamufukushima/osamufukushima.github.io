@@ -51,6 +51,9 @@ table {border-collapse:collapse;}
 img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
 
 /* Section setting */
+section {
+	margin-top: -50px
+}
 section + section {
 	padding-top: 30px;	/*sectionの間に空けるスペース*/
 }
@@ -142,7 +145,7 @@ main {
 main h2 {
     display: inline-block;
 	font-size: 1.6rem;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
     letter-spacing: 0.1rem;
     /* padding-bottom:2px; */
     border-bottom: 3px solid #000;
