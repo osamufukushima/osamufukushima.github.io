@@ -161,7 +161,9 @@ main h2.category{
 main h3 {
 	font-size: 1.4rem;
 	margin-bottom: 10px;
-  line-height: 1.5}
+  line-height: 1.5;
+	color: #008080;
+}
 
 main p {
 	margin-bottom: 0px;
