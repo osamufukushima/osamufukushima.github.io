@@ -145,10 +145,13 @@ main {
 main h2 {
     display: inline-block;
 	font-size: 1.6rem;
-	margin-bottom: 70px;
+	margin-bottom: 50px;
     letter-spacing: 0.1rem;
     /* padding-bottom:2px; */
     border-bottom: 3px solid #000;
+}
+main h2.category{
+	margin-bottom: 80px;
 }
 
 main h3 {
