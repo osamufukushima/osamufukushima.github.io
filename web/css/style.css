@@ -104,8 +104,13 @@ header #name a {
 /*-----------------------------------------------------------------------------------*/
 /*ボックス*/
 #menubar ul {
+    display: block;
+    margin-top: -5px;
     list-style: none;
+    position: fixed;
+    width: 100%;
 	text-align: center;
+  background-color: #fff;
   border-bottom: 3px solid #008080;
 }
 
