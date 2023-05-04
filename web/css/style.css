@@ -84,7 +84,7 @@ a:hover {/*マウスオン時*/
 header {
     text-align: center;
     padding-top: 10px;		/*上余白*/
-    margin-bottom: -5px;
+    margin-bottom: 5px;
     /* font-family: Roman; */
 }
 
@@ -105,7 +105,7 @@ header #name a {
 /*ボックス*/
 #menubar ul {
     display: block;
-    margin-top: -5px;
+    margin-top:   -5px;
     list-style: none;
     position: fixed;
     width: 100%;
@@ -154,6 +154,7 @@ main {
 main h2 {
     display: inline-block;
 	font-size: 1.6rem;
+  margin-top: 50px;
 	margin-bottom: 50px;
     letter-spacing: 0.1rem;
     /* padding-bottom:2px; */
