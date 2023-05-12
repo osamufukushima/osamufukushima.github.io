@@ -103,10 +103,12 @@ header #name a {
 /* Menubar */
 /*-----------------------------------------------------------------------------------*/
 /*ボックス*/
-#menubar {
+#menubar nav {
   display: block;
   position: fixed;
-  width: 100%;
+  width: 80%;
+  /* text-align: center; */
+  /* margin-right: auto; */
 }
 
 #menubar ul {
@@ -120,16 +122,16 @@ header #name a {
 
 /* #menubar ul:before{
   content: "";
-  background: #000;	/*下線の色*/
-  /* height: 3px;		/*下線の高さ*/
-  /* position: static;
+  background: #000;	
+   height: 3px;		
+   position: static;
   left: 50%;
-  top: 110px; */
-   /* margin-right: -50%; */
-   /* transform: translate(-50%, -50%);
-  width: 100%; */
-  /* align-content: center; */
-/* } */
+  top: 110px; 
+   margin-right: -50%;
+   transform: translate(-50%, -50%);
+  width: 100%;
+  align-content: center;
+} */
 
 /* Link */
 #menubar a {
@@ -152,7 +154,7 @@ header #name a {
 /*-----------------------------------------------------------------------------------*/
 main {
     display: block;
-    margin: 50px 10%;	/*上下、左右*/
+    margin: 50px 10%;	/* 上下、左右 */
 }
 
 main h2 {
