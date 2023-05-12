@@ -40,12 +40,16 @@ figure {margin: 0;}
 dd {margin: 0;}
 
 /* List setting */
-ul {
+ul.nonumber {
   list-style: none;
+  margin: 0px 0px;
+}
+.listspace li {
+  margin: 0px 0px;
 }
 ol li {
 	/* margin-top: 20px; */
-	margin: 30px 0px;
+	margin: 20px 0px;
 }
 
 /* Table setting */
