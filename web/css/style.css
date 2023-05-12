@@ -105,25 +105,25 @@ header #name a {
 /*ボックス*/
 
 
-/* nav#menubar{
+nav#menubar{
   display: block;
   position: fixed;
   width: 80%;
   left: 50%;
-top: 10%;
+top: 80px;
 transform:
 translateX(-50%)
 translateY(-50%);
-} */
+}
 
-nav#menubar{
+/* nav#menubar{
   display: block;
   position: fixed;
   width: 80%;
   position: fixed;
   inset: 60px;
   margin: auto;
-}
+} */
 
 #menubar ul {
     display: block;
