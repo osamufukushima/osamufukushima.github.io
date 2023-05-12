@@ -103,12 +103,26 @@ header #name a {
 /* Menubar */
 /*-----------------------------------------------------------------------------------*/
 /*ボックス*/
-#menubar nav {
+
+
+/* nav#menubar{
   display: block;
   position: fixed;
   width: 80%;
-  /* text-align: center; */
-  /* margin-right: auto; */
+  left: 50%;
+top: 10%;
+transform:
+translateX(-50%)
+translateY(-50%);
+} */
+
+nav#menubar{
+  display: block;
+  position: fixed;
+  width: 80%;
+  position: fixed;
+  inset: 60px;
+  margin: auto;
 }
 
 #menubar ul {
