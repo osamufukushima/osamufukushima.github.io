@@ -19,7 +19,7 @@ body {
   /* font-family:"ヒラギノ明朝 ProN","Hiragino Mincho ProN","Yu Mincho Light","YuMincho","Yu Mincho","游明朝体",sans-serif; */
 	/* font-family: "ヒラギノ角ゴシック","Hiragino Sans","メイリオ",Meiryo,sans-serif; */
 	-webkit-text-size-adjust: none;
-    background: linear-gradient(#fff, #fff6ef 400px); /* Background gradation */
+    background: linear-gradient(#fff, #fffaec 400px); /* Background gradation #fff6ef #fffaef #fff8ef #fffaec */
 	color: #000;
 	line-height: 2;		/*行間*/
 }
@@ -44,9 +44,9 @@ ul.nonumber {
   list-style: none;
   margin: 0px 0px;
 }
-.listspace li {
+/* .listspace li {
   margin: 0px 0px;
-}
+} */
 ol li {
 	/* margin-top: 20px; */
 	margin: 20px 0px;
