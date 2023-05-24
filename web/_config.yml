@@ -1,3 +1,7 @@
 theme: jekyll-theme-minimal
-title: Octocat's homepage
+title: Osamu Fukushima's website
 description: Bookmark this to keep an eye on my project updates!
+
+google_analytics: UA-263352683-1
+plugins:
+  - jekyll-sitemap
