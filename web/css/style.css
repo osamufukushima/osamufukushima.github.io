@@ -88,7 +88,7 @@ a:hover {/*マウスオン時*/
 header {
     text-align: center;
     padding-top: 10px;		/*上余白*/
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     /* font-family: Roman; */
 }
 
@@ -119,6 +119,11 @@ transform:
 translateX(-50%)
 translateY(-50%);
 }
+@media(max-width: 750px) {
+nav#menubar{
+  display: block;
+  top: 110px;
+}}
 
 /* nav#menubar{
   display: block;
@@ -174,6 +179,12 @@ main {
     display: block;
     margin: 50px 10%;	/* 上下、左右 */
 }
+@media(max-width: 750px) {
+  main {
+    display: block;
+    margin-top: 90px
+}}
+
 
 main h2 {
     display: inline-block;
