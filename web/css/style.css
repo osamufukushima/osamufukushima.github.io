@@ -239,7 +239,7 @@ p.note {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-bottom: 50px
+    margin-bottom: 30px
   }
   .bl_row .bl_col {
     width: 48%;
@@ -249,7 +249,7 @@ p.note {
 
 @media(min-width: 1290px) {
   .bl_row {
-    margin-bottom: 60px
+    margin-bottom: 30px
   }
   .bl_row .bl_col {
     width: 510px
