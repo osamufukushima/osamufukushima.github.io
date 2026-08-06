@@ -1,0 +1,8 @@
+# Optional manual overrides applied by scripts/sync_inspire.rb and scripts/sync_orcid.rb.
+# Keys may be an item id, "arxiv:<id>", "doi:<doi>", or "inspire:<control_number>".
+#
+# Example:
+# - key: "arxiv:2602.04662"
+#   journal_html: "JHEP <b>06</b>, 84 (2026)."
+#   journal_url: "https://link.springer.com/article/10.1007/JHEP06(2026)084"
+[]

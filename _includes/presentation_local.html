@@ -1,0 +1,10 @@
+<li> {{ include.item.event | escape }}, {{ include.item.date | date: "%b. %-d, %Y" }}. <br>
+  {% if include.item.presentation_type == "review" %}
+    Review on "{{ include.item.title | escape }}"{% if include.item.links %},{% endif %}
+    {% for link in include.item.links %}
+      <a href="{{ link.url | escape }}" target="_blank" rel="noopener">{{ link.label | escape }}</a>{% unless forloop.last %} and{% endunless %}
+    {% endfor %}.
+  {% else %}
+    "{{ include.item.title | escape }}"{% if include.item.presentation_type == "poster" %}, poster presentation{% endif %}.
+  {% endif %}
+</li>

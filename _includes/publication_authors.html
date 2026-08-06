@@ -1,0 +1,12 @@
+{%- assign authors = include.authors -%}
+{%- for author in authors -%}
+  {%- assign parts = author | split: ", " -%}
+  {%- if parts.size == 2 -%}
+    {{- parts[1] | escape }} {{ parts[0] | escape -}}
+  {%- else -%}
+    {{- author | escape -}}
+  {%- endif -%}
+  {%- unless forloop.last -%}
+    {%- if forloop.rindex == 2 %} and {% else %}, {% endif -%}
+  {%- endunless -%}
+{%- endfor -%}

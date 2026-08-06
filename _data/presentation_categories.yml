@@ -1,0 +1,15 @@
+- id: "international_conference"
+  label: "International Conference"
+  order: 10
+
+- id: "domestic_conference_japan"
+  label: "Domestic Conference in Japan"
+  order: 20
+
+- id: "seminar"
+  label: "Seminar"
+  order: 30
+
+- id: "local_talk"
+  label: "Local Talk"
+  order: 40

@@ -1,0 +1,4 @@
+<li>
+  "{{ include.item.title | escape }}"{% if include.item.presentation_type == "poster" %}, poster presentation{% endif %}, <br>
+  &nbsp;{{ include.item.event | escape }}{% if include.item.venue %}, {{ include.item.venue | escape }}{% endif %}{% if include.item.location %}, {{ include.item.location | escape }}{% endif %}, {{ include.item.date | date: "%b. %-d, %Y" }}.
+</li>

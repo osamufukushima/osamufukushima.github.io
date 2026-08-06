@@ -1,0 +1,15 @@
+<li> {% include publication_authors.html authors=include.item.authors %},<br>
+  "{% if include.item.title_html %}{{ include.item.title_html }}{% else %}{{ include.item.title | escape }}{% endif %}," <br>
+  {% if include.item.journal_html %}
+    {% if include.item.journal_url %}
+  &nbsp;<a href="{{ include.item.journal_url | escape }}" target="_blank" rel="noopener">{{ include.item.journal_html }}</a>
+    {% else %}
+  &nbsp;{{ include.item.journal_html }}
+    {% endif %}
+  {% endif %}
+  {% if include.item.arxiv %}
+  &nbsp;<a href="https://arxiv.org/abs/{{ include.item.arxiv | escape }}" target="_blank" rel="noopener">[arXiv:{{ include.item.arxiv | escape }}{% if include.item.primary_class %} [{{ include.item.primary_class | escape }}]{% endif %}]</a>
+  {% elsif include.item.inspire_url %}
+  &nbsp;<a href="{{ include.item.inspire_url | escape }}" target="_blank" rel="noopener">[INSPIRE]</a>
+  {% endif %}
+</li>
