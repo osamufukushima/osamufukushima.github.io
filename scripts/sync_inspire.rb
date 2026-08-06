@@ -118,6 +118,26 @@ def journal_html(journal)
   "#{text}."
 end
 
+def document_types(metadata)
+  Array(metadata["document_type"]).map { |value| value.to_s.downcase }
+end
+
+def article_record?(metadata)
+  types = document_types(metadata)
+  types.empty? || types.include?("article")
+end
+
+def inspire_candidate_keys(metadata, hit)
+  arxiv_entry = Array(metadata["arxiv_eprints"]).first || {}
+  doi = first_value(metadata["dois"], "value")
+  inspire_id = metadata["control_number"] || hit["id"]
+  [
+    arxiv_entry["value"] && "arxiv:#{arxiv_entry["value"]}",
+    doi && "doi:#{doi.downcase}",
+    inspire_id && "inspire:#{inspire_id}"
+  ].compact
+end
+
 def record_key(record)
   return "arxiv:#{record["arxiv"]}" if record["arxiv"]
   return "doi:#{record["doi"].downcase}" if record["doi"]
@@ -162,8 +182,16 @@ loop do
   page += 1
 end
 
+skipped_keys = {}
+skipped_records = 0
 normalized = records.map do |hit|
   metadata = hit["metadata"] || {}
+  unless article_record?(metadata)
+    skipped_records += 1
+    inspire_candidate_keys(metadata, hit).each { |key| skipped_keys[key] = true }
+    next
+  end
+
   arxiv_entry = Array(metadata["arxiv_eprints"]).first || {}
   doi = first_value(metadata["dois"], "value")
   journal = journal_from(metadata)
@@ -187,7 +215,7 @@ normalized = records.map do |hit|
     "source" => "inspire",
     "updated_at" => Time.now.utc.iso8601
   }.compact
-end
+end.compact
 
 existing = load_yaml_array(options[:output])
 overrides = load_yaml_array(options[:overrides])
@@ -211,9 +239,12 @@ merged_articles = normalized.map do |record|
 end
 
 preserved = existing.reject do |entry|
-  entry.is_a?(Hash) && entry["type"] == "article" && merged_keys[record_key(entry)]
+  next false unless entry.is_a?(Hash) && entry["type"] == "article"
+
+  merged_keys[record_key(entry)] || candidate_keys(entry).any? { |key| skipped_keys[key] }
 end
 
 output = (merged_articles + preserved).sort_by { |entry| entry["date"].to_s }.reverse
 write_yaml(options[:output], output)
 puts "Updated #{options[:output]} with #{merged_articles.length} INSPIRE article records."
+puts "Skipped #{skipped_records} non-article INSPIRE record(s) (#{skipped_keys.length} identifier(s))."

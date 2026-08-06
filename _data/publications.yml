@@ -17,6 +17,30 @@
   source: inspire
   updated_at: '2026-08-06T10:55:33Z'
 
+- id: arxiv:2602.04662
+  type: article
+  date: 2026-06
+  title: Courant-Hilbert deformations of Yang-Baxter sigma models
+  title_html: Courant-Hilbert deformations of Yang-Baxter sigma models
+  authors:
+  - Fukushima, Osamu
+  - Matsumoto, Takaki
+  - Yoshida, Kentaroh
+  journal:
+    title: JHEP
+    volume: '06'
+    page: '084'
+    year: 2026
+  journal_html: JHEP, <b>06</b>, 084 (2026).
+  journal_url: https://doi.org/10.1007/JHEP06(2026)084
+  doi: 10.1007/JHEP06(2026)084
+  arxiv: '2602.04662'
+  primary_class: hep-th
+  inspire_id: 3115463
+  inspire_url: https://inspirehep.net/literature/3115463
+  source: inspire
+  updated_at: '2026-08-06T10:55:33Z'
+
 - id: arxiv:2509.01931
   type: article
   date: 2026-06
@@ -39,30 +63,6 @@
   primary_class: hep-th
   inspire_id: 2966138
   inspire_url: https://inspirehep.net/literature/2966138
-  source: inspire
-  updated_at: '2026-08-06T10:55:33Z'
-
-- id: arxiv:2602.04662
-  type: article
-  date: 2026-06
-  title: Courant-Hilbert deformations of Yang-Baxter sigma models
-  title_html: Courant-Hilbert deformations of Yang-Baxter sigma models
-  authors:
-  - Fukushima, Osamu
-  - Matsumoto, Takaki
-  - Yoshida, Kentaroh
-  journal:
-    title: JHEP
-    volume: '06'
-    page: '084'
-    year: 2026
-  journal_html: JHEP, <b>06</b>, 084 (2026).
-  journal_url: https://doi.org/10.1007/JHEP06(2026)084
-  doi: 10.1007/JHEP06(2026)084
-  arxiv: '2602.04662'
-  primary_class: hep-th
-  inspire_id: 3115463
-  inspire_url: https://inspirehep.net/literature/3115463
   source: inspire
   updated_at: '2026-08-06T10:55:33Z'
 
@@ -113,19 +113,21 @@
   source: inspire
   updated_at: '2026-08-06T10:55:33Z'
 
-- id: inspire:2927137
-  type: article
+- id: book:higher-form-symmetry-eth
+  type: book
   date: '2025'
   title: Higher-Form Symmetry and Eigenstate Thermalization Hypothesis
   title_html: Higher-Form Symmetry and Eigenstate Thermalization Hypothesis
   authors:
-  - Fukushima, Osamu
-  journal_url: https://doi.org/10.1007/978-981-96-1643-5
-  doi: 10.1007/978-981-96-1643-5
-  inspire_id: 2927137
-  inspire_url: https://inspirehep.net/literature/2927137
-  source: inspire
-  updated_at: '2026-08-06T10:55:33Z'
+  - Osamu Fukushima
+  publisher: Springer
+  isbn:
+  - 978-981-96-1642-8
+  - 978-981-96-1645-9
+  - 978-981-96-1643-5
+  url: https://link.springer.com/book/10.1007/978-981-96-1643-5
+  note: Ph.D thesis
+  source: manual
 
 - id: arxiv:2411.04754
   type: article
@@ -148,20 +150,6 @@
   primary_class: hep-th
   inspire_id: 2846306
   inspire_url: https://inspirehep.net/literature/2846306
-  source: inspire
-  updated_at: '2026-08-06T10:55:33Z'
-
-- id: inspire:2811938
-  type: article
-  date: 2023-12
-  title: Higher-Form Symmetry and Eigenstate Thermalization Hypothesis
-  title_html: Higher-Form Symmetry and Eigenstate Thermalization Hypothesis
-  authors:
-  - Fukushima, Osamu
-  journal_url: https://doi.org/10.14989/doctor.k25111
-  doi: 10.14989/doctor.k25111
-  inspire_id: 2811938
-  inspire_url: https://inspirehep.net/literature/2811938
   source: inspire
   updated_at: '2026-08-06T10:55:33Z'
 
@@ -310,6 +298,17 @@
   source: inspire
   updated_at: '2026-08-06T10:55:33Z'
 
+- id: thesis:master-2021
+  type: thesis
+  date: 2021-02
+  title: 可積分模型の統一理論としての4次元Chern-Simons理論
+  title_html: 可積分模型の統一理論としての4次元Chern-Simons理論
+  authors:
+  - Osamu Fukushima
+  thesis_type: Master Thesis
+  url: "./master_thesis_v3.pdf"
+  source: manual
+
 - id: arxiv:2005.04950
   type: article
   date: 2020-09
@@ -360,30 +359,3 @@
   inspire_url: https://inspirehep.net/literature/1785672
   source: inspire
   updated_at: '2026-08-06T10:55:33Z'
-
-- id: book:higher-form-symmetry-eth
-  type: book
-  date: '2025'
-  title: Higher-Form Symmetry and Eigenstate Thermalization Hypothesis
-  title_html: Higher-Form Symmetry and Eigenstate Thermalization Hypothesis
-  authors:
-  - Osamu Fukushima
-  publisher: Springer
-  isbn:
-  - 978-981-96-1642-8
-  - 978-981-96-1645-9
-  - 978-981-96-1643-5
-  url: https://link.springer.com/book/10.1007/978-981-96-1643-5
-  note: Ph.D thesis
-  source: manual
-
-- id: thesis:master-2021
-  type: thesis
-  date: 2021-02
-  title: 可積分模型の統一理論としての4次元Chern-Simons理論
-  title_html: 可積分模型の統一理論としての4次元Chern-Simons理論
-  authors:
-  - Osamu Fukushima
-  thesis_type: Master Thesis
-  url: ./master_thesis_v3.pdf
-  source: manual
