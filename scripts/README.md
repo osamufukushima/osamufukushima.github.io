@@ -16,6 +16,23 @@ ruby scripts/format_yaml_spacing.rb
 
 This inserts a blank line between top-level list items in `_data/*.yml`.
 
+## Normalize publication titles
+
+```sh
+ruby scripts/normalize_publication_titles.rb
+```
+
+This ensures every publication has both `title_latex` and `title_html`.
+`title_latex` is intended for LaTeX/CV output, while `title_html` is intended for
+the website. Inline LaTeX math written as `$...$` is converted to MathJax
+`\(...\)` in `title_html` when `title_html` is missing.
+
+To regenerate all `title_html` values from `title_latex`, run:
+
+```sh
+ruby scripts/normalize_publication_titles.rb --force-html
+```
+
 ## Render HTML from YAML
 
 ```sh

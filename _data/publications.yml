@@ -3,6 +3,7 @@
   type: article
   date: '2026-08-05'
   title: Machine-Learning Search for Lax Connections
+  title_latex: Machine-Learning Search for Lax Connections
   title_html: Machine-Learning Search for Lax Connections
   authors:
   - Fukushima, Osamu
@@ -21,6 +22,7 @@
   type: article
   date: 2026-06
   title: Courant-Hilbert deformations of Yang-Baxter sigma models
+  title_latex: Courant-Hilbert deformations of Yang-Baxter sigma models
   title_html: Courant-Hilbert deformations of Yang-Baxter sigma models
   authors:
   - Fukushima, Osamu
@@ -45,6 +47,7 @@
   type: article
   date: 2026-06
   title: Eigenstate Thermalization Hypothesis with projective representation
+  title_latex: Eigenstate Thermalization Hypothesis with projective representation
   title_html: Eigenstate Thermalization Hypothesis with projective representation
   authors:
   - Onoda, Soma
@@ -70,6 +73,7 @@
   type: article
   date: 2026-01
   title: The Courant-Hilbert construction in 4D Chern-Simons theory
+  title_latex: The Courant-Hilbert construction in 4D Chern-Simons theory
   title_html: The Courant-Hilbert construction in 4D Chern-Simons theory
   authors:
   - Fukushima, Osamu
@@ -94,6 +98,7 @@
   type: article
   date: 2025-09
   title: 4D Chern-Simons theory with auxiliary fields
+  title_latex: 4D Chern-Simons theory with auxiliary fields
   title_html: 4D Chern-Simons theory with auxiliary fields
   authors:
   - Fukushima, Osamu
@@ -117,6 +122,7 @@
   type: book
   date: '2025'
   title: Higher-Form Symmetry and Eigenstate Thermalization Hypothesis
+  title_latex: Higher-Form Symmetry and Eigenstate Thermalization Hypothesis
   title_html: Higher-Form Symmetry and Eigenstate Thermalization Hypothesis
   authors:
   - Osamu Fukushima
@@ -133,6 +139,7 @@
   type: article
   date: '2024-11-07'
   title: Scaling law for membrane lifetime
+  title_latex: Scaling law for membrane lifetime
   title_html: Scaling law for membrane lifetime
   authors:
   - Fukushima, Osamu
@@ -157,6 +164,8 @@
   type: article
   date: '2023-10-17'
   title: Remarks on Effects of Projective Phase on Eigenstate Thermalization Hypothesis
+  title_latex: Remarks on Effects of Projective Phase on Eigenstate Thermalization
+    Hypothesis
   title_html: Remarks on Effects of Projective Phase on Eigenstate Thermalization
     Hypothesis
   authors:
@@ -182,6 +191,8 @@
   date: '2023-05-08'
   title: Violation of Eigenstate Thermalization Hypothesis in Quantum Field Theories
     with Higher-Form Symmetry
+  title_latex: Violation of Eigenstate Thermalization Hypothesis in Quantum Field
+    Theories with Higher-Form Symmetry
   title_html: Violation of Eigenstate Thermalization Hypothesis in Quantum Field Theories
     with Higher-Form Symmetry
   authors:
@@ -207,6 +218,7 @@
   type: article
   date: 2022-09
   title: Chaotic instability in the BFSS matrix model
+  title_latex: Chaotic instability in the BFSS matrix model
   title_html: Chaotic instability in the BFSS matrix model
   authors:
   - Fukushima, Osamu
@@ -230,6 +242,7 @@
   type: article
   date: 2022-03
   title: Non-Abelian Toda field theories from a 4D Chern-Simons theory
+  title_latex: Non-Abelian Toda field theories from a 4D Chern-Simons theory
   title_html: Non-Abelian Toda field theories from a 4D Chern-Simons theory
   authors:
   - Fukushima, Osamu
@@ -254,7 +267,8 @@
   type: article
   date: 2021-09
   title: Integrable deformed T$^{1,1}$ sigma models from 4D Chern-Simons theory
-  title_html: Integrable deformed T$^{1,1}$ sigma models from 4D Chern-Simons theory
+  title_latex: Integrable deformed T$^{1,1}$ sigma models from 4D Chern-Simons theory
+  title_html: Integrable deformed T\(^{1,1}\) sigma models from 4D Chern-Simons theory
   authors:
   - Fukushima, Osamu
   - Sakamoto, Jun-ichi
@@ -278,6 +292,7 @@
   type: article
   date: 2021-02
   title: Faddeev-Reshetikhin model from a 4D Chern-Simons theory
+  title_latex: Faddeev-Reshetikhin model from a 4D Chern-Simons theory
   title_html: Faddeev-Reshetikhin model from a 4D Chern-Simons theory
   authors:
   - Fukushima, Osamu
@@ -302,6 +317,7 @@
   type: thesis
   date: 2021-02
   title: 可積分模型の統一理論としての4次元Chern-Simons理論
+  title_latex: 可積分模型の統一理論としての4次元Chern-Simons理論
   title_html: 可積分模型の統一理論としての4次元Chern-Simons理論
   authors:
   - Osamu Fukushima
@@ -314,7 +330,9 @@
   date: 2020-09
   title: Yang-Baxter deformations of the AdS$_5\times$S$^5$ supercoset sigma model
     from 4D Chern-Simons theory
-  title_html: Yang-Baxter deformations of the AdS$_5\times$S$^5$ supercoset sigma
+  title_latex: Yang-Baxter deformations of the AdS$_5\times$S$^5$ supercoset sigma
+    model from 4D Chern-Simons theory
+  title_html: Yang-Baxter deformations of the AdS\(_5\times\)S\(^5\) supercoset sigma
     model from 4D Chern-Simons theory
   authors:
   - Fukushima, Osamu
@@ -339,7 +357,9 @@
   type: article
   date: '2020-03-19'
   title: Comments on $\eta$-deformed principal chiral model from 4D Chern-Simons theory
-  title_html: Comments on $\eta$-deformed principal chiral model from 4D Chern-Simons
+  title_latex: Comments on $\eta$-deformed principal chiral model from 4D Chern-Simons
+    theory
+  title_html: Comments on \(\eta\)-deformed principal chiral model from 4D Chern-Simons
     theory
   authors:
   - Fukushima, Osamu

@@ -118,6 +118,33 @@ def journal_html(journal)
   "#{text}."
 end
 
+def latex_inline_math_to_mathjax(text)
+  input = text.to_s
+  output = +""
+  in_math = false
+  i = 0
+
+  while i < input.length
+    if input[i] == "\\" && input[i + 1] == "$"
+      output << "\\$"
+      i += 2
+    elsif input[i, 2] == "$$"
+      output << (in_math ? "\\)" : "\\(")
+      in_math = !in_math
+      i += 2
+    elsif input[i] == "$"
+      output << (in_math ? "\\)" : "\\(")
+      in_math = !in_math
+      i += 1
+    else
+      output << input[i]
+      i += 1
+    end
+  end
+
+  output
+end
+
 def document_types(metadata)
   Array(metadata["document_type"]).map { |value| value.to_s.downcase }
 end
@@ -196,13 +223,15 @@ normalized = records.map do |hit|
   doi = first_value(metadata["dois"], "value")
   journal = journal_from(metadata)
   inspire_id = metadata["control_number"] || hit["id"]
+  title_latex = Array(metadata["titles"]).first&.fetch("title", nil)
 
   {
     "id" => arxiv_entry["value"] ? "arxiv:#{arxiv_entry["value"]}" : "inspire:#{inspire_id}",
     "type" => "article",
     "date" => normalized_date(metadata),
-    "title" => Array(metadata["titles"]).first&.fetch("title", nil),
-    "title_html" => Array(metadata["titles"]).first&.fetch("title", nil),
+    "title" => title_latex,
+    "title_latex" => title_latex,
+    "title_html" => title_latex && latex_inline_math_to_mathjax(title_latex),
     "authors" => Array(metadata["authors"]).map { |author| author["full_name"] || author["name"] }.compact,
     "journal" => journal,
     "journal_html" => journal_html(journal),

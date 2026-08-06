@@ -60,7 +60,9 @@ assets used by the site.
 ## Data Files
 
 `_data/publications.yml` is the canonical publication database for articles,
-books, and theses.
+books, and theses. Publication titles should keep both `title_latex` for
+LaTeX/CV output and `title_html` for website output. For example, use `$...$`
+math in `title_latex` and MathJax `\(...\)` math in `title_html`.
 
 `_data/presentations.yml` is the canonical presentation database.
 
@@ -95,6 +97,12 @@ Format YAML files with blank lines between top-level items:
 
 ```sh
 ruby scripts/format_yaml_spacing.rb
+```
+
+Normalize publication title fields:
+
+```sh
+ruby scripts/normalize_publication_titles.rb
 ```
 
 Generate optional preview HTML from YAML:

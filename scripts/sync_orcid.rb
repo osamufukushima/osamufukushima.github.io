@@ -87,6 +87,33 @@ def date_from(summary)
   [year, month, day].compact.join("-")
 end
 
+def latex_inline_math_to_mathjax(text)
+  input = text.to_s
+  output = +""
+  in_math = false
+  i = 0
+
+  while i < input.length
+    if input[i] == "\\" && input[i + 1] == "$"
+      output << "\\$"
+      i += 2
+    elsif input[i, 2] == "$$"
+      output << (in_math ? "\\)" : "\\(")
+      in_math = !in_math
+      i += 2
+    elsif input[i] == "$"
+      output << (in_math ? "\\)" : "\\(")
+      in_math = !in_math
+      i += 1
+    else
+      output << input[i]
+      i += 1
+    end
+  end
+
+  output
+end
+
 def key_for(record)
   return "arxiv:#{record["arxiv"]}" if record["arxiv"]
   return "doi:#{record["doi"].downcase}" if record["doi"]
@@ -124,7 +151,8 @@ records = Array(data["group"]).map do |group|
     "type" => "article",
     "date" => date_from(summary),
     "title" => title,
-    "title_html" => title,
+    "title_latex" => title,
+    "title_html" => latex_inline_math_to_mathjax(title),
     "journal" => value_at(summary, "journal-title", "value") && { "title" => value_at(summary, "journal-title", "value") },
     "doi" => doi,
     "arxiv" => arxiv,

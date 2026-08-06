@@ -36,10 +36,11 @@ load_array(overrides_path)
 ids = Set.new
 publications.each do |item|
   label = "publication #{item["id"] || "(no id)"}"
-  require_fields(item, %w[id type date title authors], label, errors)
+  require_fields(item, %w[id type date title title_latex title_html authors], label, errors)
   errors << "#{label}: duplicate id" if item["id"] && !ids.add?(item["id"])
   errors << "#{label}: authors must be an array" unless item["authors"].is_a?(Array)
   errors << "#{label}: invalid date #{item["date"].inspect}" unless item["date"].to_s.match?(/\A\d{4}(-\d{2}(-\d{2})?)?\z/)
+  errors << "#{label}: title_html should use MathJax \\(...\\), not $...$" if item["title_html"].to_s.include?("$")
   if item["type"] == "article" && !item["arxiv"] && !item["doi"] && !item["inspire_id"]
     errors << "#{label}: article should have arxiv, doi, or inspire_id"
   end
