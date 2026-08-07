@@ -38,7 +38,7 @@ def attr(value)
 end
 
 def html_text(item, html_key, plain_key)
-  item[html_key] || h(item["title_latex"] || item[plain_key])
+  item[html_key] || h(item[plain_key])
 end
 
 def author_name(name)

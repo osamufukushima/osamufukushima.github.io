@@ -1,5 +1,5 @@
 <li> {{ include.item.note | default: "Book" | escape }}: <br>
-  "{% if include.item.title_html %}{{ include.item.title_html }}{% elsif include.item.title_latex %}{{ include.item.title_latex | escape }}{% else %}{{ include.item.title | escape }}{% endif %},"
+  "{% if include.item.title_html %}{{ include.item.title_html }}{% else %}{{ include.item.title | escape }}{% endif %},"
   {{ include.item.publisher | escape }}, {{ include.item.date | date: "%Y" }},<br>
   {% if include.item.url %}
   &nbsp;<a href="{{ include.item.url | escape }}" target="_blank" rel="noopener">{% if include.item.isbn %}ISBN {{ include.item.isbn | join: ", " | escape }}.{% else %}{{ include.item.publisher | default: "Link" | escape }}{% endif %}</a>

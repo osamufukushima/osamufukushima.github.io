@@ -1,5 +1,5 @@
 <li> {% include publication_authors.html authors=include.item.authors %},<br>
-  "{% if include.item.title_html %}{{ include.item.title_html }}{% elsif include.item.title_latex %}{{ include.item.title_latex | escape }}{% else %}{{ include.item.title | escape }}{% endif %}," <br>
+  "{% if include.item.title_html %}{{ include.item.title_html }}{% else %}{{ include.item.title | escape }}{% endif %}," <br>
   {% if include.item.journal_html %}
     {% if include.item.journal_url %}
   &nbsp;<a href="{{ include.item.journal_url | escape }}" target="_blank" rel="noopener">{{ include.item.journal_html }}</a>
