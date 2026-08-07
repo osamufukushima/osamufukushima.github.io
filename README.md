@@ -62,9 +62,7 @@ assets used by the site.
 `_data/publications.yml` is the canonical publication database for articles,
 books, and theses. Publication titles should keep both `title_latex` for
 LaTeX/CV output and `title_html` for website output. For example, use `$...$`
-math in `title_latex` and MathJax `\(...\)` math in `title_html`. The website
-templates display `title_html`; `title_latex` is reserved for future LaTeX/CV
-generation.
+math in `title_latex` and MathJax `\(...\)` math in `title_html`.
 
 `_data/presentations.yml` is the canonical presentation database.
 
