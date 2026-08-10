@@ -62,6 +62,23 @@ ruby scripts/render_pages.rb --page publications
 ruby scripts/render_pages.rb --page presentations
 ```
 
+## Render CV/Publications TeX from YAML
+
+```sh
+ruby scripts/render_cv_tex.rb
+```
+
+This reads `_data/publications.yml` and `_data/presentations.yml`, keeps the
+layout from `CV/CV_original.tex` and `CV/publication_original.tex`, and writes:
+
+```text
+CV/CV.tex
+CV/publication.tex
+```
+
+The generated files are local CV artifacts because `CV/` is ignored by
+`.gitignore`.
+
 ## Sync article metadata from INSPIRE HEP
 
 ```sh
