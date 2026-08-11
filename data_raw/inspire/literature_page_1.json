@@ -2,8 +2,7 @@
   "hits": {
     "hits": [
       {
-        "id": "3187940",
-        "created": "2026-08-06T03:44:49.051879+00:00",
+        "updated": "2026-08-07T03:35:08.519512+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/3187940?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/3187940?format=latex-eu",
@@ -13,7 +12,24 @@
           "cv": "https://inspirehep.net/api/literature/3187940?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A3187940"
         },
+        "id": "3187940",
+        "created": "2026-08-06T03:44:49.051879+00:00",
         "metadata": {
+          "citation_count_without_self_citations": 0,
+          "report_numbers": [
+            {
+              "source": "arXiv",
+              "value": "RIKEN-iTHEMS-Report-26"
+            },
+            {
+              "source": "arXiv",
+              "value": "KUNS-3116"
+            },
+            {
+              "source": "arXiv",
+              "value": "STUPP-26-302"
+            }
+          ],
           "citation_count": 0,
           "authors": [
             {
@@ -197,21 +213,6 @@
               "recid": 982618
             }
           ],
-          "report_numbers": [
-            {
-              "source": "arXiv",
-              "value": "RIKEN-iTHEMS-Report-26"
-            },
-            {
-              "source": "arXiv",
-              "value": "KUNS-3116"
-            },
-            {
-              "source": "arXiv",
-              "value": "STUPP-26-302"
-            }
-          ],
-          "citation_count_without_self_citations": 0,
           "citeable": true,
           "$schema": "https://inspirehep.net/schemas/records/hep.json",
           "references": [
@@ -1161,12 +1162,10 @@
               "value": "2608.05146"
             }
           ]
-        },
-        "updated": "2026-08-07T03:35:08.519512+00:00"
+        }
       },
       {
-        "id": "3115463",
-        "created": "2026-02-05T04:19:51.143842+00:00",
+        "updated": "2026-06-12T11:11:34.309560+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/3115463?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/3115463?format=latex-eu",
@@ -1176,8 +1175,10 @@
           "cv": "https://inspirehep.net/api/literature/3115463?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A3115463"
         },
+        "id": "3115463",
+        "created": "2026-02-05T04:19:51.143842+00:00",
         "metadata": {
-          "citation_count": 3,
+          "citation_count_without_self_citations": 2,
           "publication_info": [
             {
               "journal_volume": "06",
@@ -1199,6 +1200,17 @@
               "url": "https://inspirehep.net/files/58658017f9588cc452fd6c7c399add17"
             }
           ],
+          "report_numbers": [
+            {
+              "source": "arXiv",
+              "value": "RIKEN-iTHEMS-Report-26"
+            },
+            {
+              "source": "arXiv",
+              "value": "STUPP-25-293"
+            }
+          ],
+          "citation_count": 3,
           "authors": [
             {
               "raw_affiliations": [
@@ -1335,17 +1347,6 @@
               "recid": 982618
             }
           ],
-          "report_numbers": [
-            {
-              "source": "arXiv",
-              "value": "RIKEN-iTHEMS-Report-26"
-            },
-            {
-              "source": "arXiv",
-              "value": "STUPP-25-293"
-            }
-          ],
-          "citation_count_without_self_citations": 2,
           "citeable": true,
           "$schema": "https://inspirehep.net/schemas/records/hep.json",
           "keywords": [
@@ -3103,12 +3104,10 @@
               "value": "2602.04662"
             }
           ]
-        },
-        "updated": "2026-06-12T11:11:34.309560+00:00"
+        }
       },
       {
-        "id": "2973941",
-        "created": "2025-09-29T04:07:41.622213+00:00",
+        "updated": "2026-04-09T10:46:01.035407+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/2973941?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/2973941?format=latex-eu",
@@ -3118,8 +3117,10 @@
           "cv": "https://inspirehep.net/api/literature/2973941?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A2973941"
         },
+        "id": "2973941",
+        "created": "2025-09-29T04:07:41.622213+00:00",
         "metadata": {
-          "citation_count": 8,
+          "citation_count_without_self_citations": 7,
           "publication_info": [
             {
               "journal_volume": "01",
@@ -3141,6 +3142,17 @@
               "url": "https://inspirehep.net/files/fa85a110d9d6ec21ac4aabf8384727de"
             }
           ],
+          "report_numbers": [
+            {
+              "source": "arXiv",
+              "value": "RIKEN-iTHEMS-Report-25"
+            },
+            {
+              "source": "arXiv",
+              "value": "STUPP-25-288"
+            }
+          ],
+          "citation_count": 8,
           "authors": [
             {
               "raw_affiliations": [
@@ -3277,17 +3289,6 @@
               "recid": 982618
             }
           ],
-          "report_numbers": [
-            {
-              "source": "arXiv",
-              "value": "RIKEN-iTHEMS-Report-25"
-            },
-            {
-              "source": "arXiv",
-              "value": "STUPP-25-288"
-            }
-          ],
-          "citation_count_without_self_citations": 7,
           "citeable": true,
           "$schema": "https://inspirehep.net/schemas/records/hep.json",
           "keywords": [
@@ -5402,12 +5403,10 @@
               "value": "2509.22080"
             }
           ]
-        },
-        "updated": "2026-04-09T10:46:01.035407+00:00"
+        }
       },
       {
-        "id": "2966138",
-        "created": "2025-09-03T08:25:13.250591+00:00",
+        "updated": "2026-06-17T04:05:13.897628+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/2966138?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/2966138?format=latex-eu",
@@ -5417,8 +5416,10 @@
           "cv": "https://inspirehep.net/api/literature/2966138?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A2966138"
         },
+        "id": "2966138",
+        "created": "2025-09-03T08:25:13.250591+00:00",
         "metadata": {
-          "citation_count": 1,
+          "citation_count_without_self_citations": 1,
           "publication_info": [
             {
               "journal_volume": "06",
@@ -5449,6 +5450,17 @@
               "url": "https://inspirehep.net/files/c5c7b89e8ae1cd7e56bcacb576a2c34d"
             }
           ],
+          "report_numbers": [
+            {
+              "source": "arXiv",
+              "value": "KYUSHU-HET-337"
+            },
+            {
+              "source": "arXiv",
+              "value": "RIKEN-iTHEMS-Report-25"
+            }
+          ],
+          "citation_count": 1,
           "authors": [
             {
               "raw_affiliations": [
@@ -5622,17 +5634,6 @@
               "recid": 1790648
             }
           ],
-          "report_numbers": [
-            {
-              "source": "arXiv",
-              "value": "KYUSHU-HET-337"
-            },
-            {
-              "source": "arXiv",
-              "value": "RIKEN-iTHEMS-Report-25"
-            }
-          ],
-          "citation_count_without_self_citations": 1,
           "citeable": true,
           "references": [
             {
@@ -7366,12 +7367,10 @@
               "value": "2509.01931"
             }
           ]
-        },
-        "updated": "2026-06-17T04:05:13.897628+00:00"
+        }
       },
       {
-        "id": "2927137",
-        "created": "2025-06-02T10:20:23.493374+00:00",
+        "updated": "2025-07-28T15:56:55.699853+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/2927137?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/2927137?format=latex-eu",
@@ -7381,7 +7380,10 @@
           "cv": "https://inspirehep.net/api/literature/2927137?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A2927137"
         },
+        "id": "2927137",
+        "created": "2025-06-02T10:20:23.493374+00:00",
         "metadata": {
+          "citation_count_without_self_citations": 1,
           "citation_count": 1,
           "authors": [
             {
@@ -7407,7 +7409,6 @@
               "recid": 1818804
             }
           ],
-          "citation_count_without_self_citations": 1,
           "$schema": "https://inspirehep.net/schemas/records/hep.json",
           "inspire_categories": [
             {
@@ -7470,12 +7471,10 @@
             "updated": "2025-07-28T15:56:55.699853"
           },
           "curated": false
-        },
-        "updated": "2025-07-28T15:56:55.699853+00:00"
+        }
       },
       {
-        "id": "2846306",
-        "created": "2024-11-08T10:06:49.076096+00:00",
+        "updated": "2025-07-11T19:37:08.699299+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/2846306?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/2846306?format=latex-eu",
@@ -7485,8 +7484,10 @@
           "cv": "https://inspirehep.net/api/literature/2846306?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A2846306"
         },
+        "id": "2846306",
+        "created": "2024-11-08T10:06:49.076096+00:00",
         "metadata": {
-          "citation_count": 1,
+          "citation_count_without_self_citations": 0,
           "publication_info": [
             {
               "journal_volume": "1017",
@@ -7499,6 +7500,21 @@
               "journal_title": "Nucl.Phys.B"
             }
           ],
+          "report_numbers": [
+            {
+              "source": "arXiv",
+              "value": "RIKEN-iTHEMS-Report-24"
+            },
+            {
+              "source": "arXiv",
+              "value": "KUNS-3023"
+            },
+            {
+              "source": "arXiv",
+              "value": "STUPP-24-273"
+            }
+          ],
+          "citation_count": 1,
           "authors": [
             {
               "raw_affiliations": [
@@ -7617,21 +7633,6 @@
               "recid": 982618
             }
           ],
-          "report_numbers": [
-            {
-              "source": "arXiv",
-              "value": "RIKEN-iTHEMS-Report-24"
-            },
-            {
-              "source": "arXiv",
-              "value": "KUNS-3023"
-            },
-            {
-              "source": "arXiv",
-              "value": "STUPP-24-273"
-            }
-          ],
-          "citation_count_without_self_citations": 0,
           "citeable": true,
           "copyright": [
             {
@@ -8684,12 +8685,10 @@
               "value": "2411.04754"
             }
           ]
-        },
-        "updated": "2025-07-11T19:37:08.699299+00:00"
+        }
       },
       {
-        "id": "2803954",
-        "created": "2024-07-03T04:22:44.976657+00:00",
+        "updated": "2025-11-17T11:35:36.238158+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/2803954?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/2803954?format=latex-eu",
@@ -8699,8 +8698,10 @@
           "cv": "https://inspirehep.net/api/literature/2803954?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A2803954"
         },
+        "id": "2803954",
+        "created": "2024-07-03T04:22:44.976657+00:00",
         "metadata": {
-          "citation_count": 20,
+          "citation_count_without_self_citations": 18,
           "publication_info": [
             {
               "journal_volume": "09",
@@ -8722,6 +8723,17 @@
               "url": "https://inspirehep.net/files/4100917c12301442b7904367ea5dc2f6"
             }
           ],
+          "report_numbers": [
+            {
+              "source": "arXiv",
+              "value": "RIKEN-iTHEMS-Report-24"
+            },
+            {
+              "source": "arXiv",
+              "value": "STUPP-24-270"
+            }
+          ],
+          "citation_count": 20,
           "authors": [
             {
               "raw_affiliations": [
@@ -8813,17 +8825,6 @@
               "recid": 982618
             }
           ],
-          "report_numbers": [
-            {
-              "source": "arXiv",
-              "value": "RIKEN-iTHEMS-Report-24"
-            },
-            {
-              "source": "arXiv",
-              "value": "STUPP-24-270"
-            }
-          ],
-          "citation_count_without_self_citations": 18,
           "citeable": true,
           "$schema": "https://inspirehep.net/schemas/records/hep.json",
           "keywords": [
@@ -10211,12 +10212,10 @@
               "value": "2407.02204"
             }
           ]
-        },
-        "updated": "2025-11-17T11:35:36.238158+00:00"
+        }
       },
       {
-        "id": "2811938",
-        "created": "2024-07-30T14:15:20.879232+00:00",
+        "updated": "2026-02-09T14:08:38.941590+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/2811938?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/2811938?format=latex-eu",
@@ -10226,8 +10225,10 @@
           "cv": "https://inspirehep.net/api/literature/2811938?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A2811938"
         },
+        "id": "2811938",
+        "created": "2024-07-30T14:15:20.879232+00:00",
         "metadata": {
-          "citation_count": 0,
+          "citation_count_without_self_citations": 0,
           "documents": [
             {
               "filename": "fulltext.pdf",
@@ -10241,6 +10242,7 @@
               "url": "https://inspirehep.net/files/11387ac683f6f002a4d687a3def897fa"
             }
           ],
+          "citation_count": 0,
           "authors": [
             {
               "full_name_unicode_normalized": "fukushima, osamu",
@@ -10273,7 +10275,6 @@
               "recid": 1818804
             }
           ],
-          "citation_count_without_self_citations": 0,
           "$schema": "https://inspirehep.net/schemas/records/hep.json",
           "references": [
             {
@@ -17518,12 +17519,10 @@
             "degree_type": "PhD"
           },
           "curated": false
-        },
-        "updated": "2026-02-09T14:08:38.941590+00:00"
+        }
       },
       {
-        "id": "2711884",
-        "created": "2023-10-18T02:49:58.957750+00:00",
+        "updated": "2026-02-09T13:28:42.639928+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/2711884?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/2711884?format=latex-eu",
@@ -17533,8 +17532,10 @@
           "cv": "https://inspirehep.net/api/literature/2711884?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A2711884"
         },
+        "id": "2711884",
+        "created": "2023-10-18T02:49:58.957750+00:00",
         "metadata": {
-          "citation_count": 2,
+          "citation_count_without_self_citations": 0,
           "publication_info": [
             {
               "journal_volume": "2024",
@@ -17556,6 +17557,13 @@
               "url": "https://inspirehep.net/files/42dadf8f8aff5c5e99e664a9a599510b"
             }
           ],
+          "report_numbers": [
+            {
+              "source": "arXiv",
+              "value": "KUNS-2983"
+            }
+          ],
+          "citation_count": 2,
           "authors": [
             {
               "raw_affiliations": [
@@ -17589,13 +17597,6 @@
               "recid": 1818804
             }
           ],
-          "report_numbers": [
-            {
-              "source": "arXiv",
-              "value": "KUNS-2983"
-            }
-          ],
-          "citation_count_without_self_citations": 0,
           "citeable": true,
           "$schema": "https://inspirehep.net/schemas/records/hep.json",
           "keywords": [
@@ -22145,12 +22146,10 @@
               "value": "2310.11425"
             }
           ]
-        },
-        "updated": "2026-02-09T13:28:42.639928+00:00"
+        }
       },
       {
-        "id": "2704718",
-        "created": "2023-09-29T16:39:06.513655+00:00",
+        "updated": "2026-02-09T13:25:36.311905+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/2704718?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/2704718?format=latex-eu",
@@ -22160,8 +22159,10 @@
           "cv": "https://inspirehep.net/api/literature/2704718?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A2704718"
         },
+        "id": "2704718",
+        "created": "2023-09-29T16:39:06.513655+00:00",
         "metadata": {
-          "citation_count": 10,
+          "citation_count_without_self_citations": 7,
           "publication_info": [
             {
               "journal_volume": "131",
@@ -22175,6 +22176,17 @@
               "journal_title": "Phys.Rev.Lett."
             }
           ],
+          "report_numbers": [
+            {
+              "source": "arXiv",
+              "value": "KUNS-2966"
+            },
+            {
+              "source": "arXiv",
+              "value": "RIKEN-iTHEMS-Report-23"
+            }
+          ],
+          "citation_count": 10,
           "authors": [
             {
               "raw_affiliations": [
@@ -22248,17 +22260,6 @@
               "recid": 1905311
             }
           ],
-          "report_numbers": [
-            {
-              "source": "arXiv",
-              "value": "KUNS-2966"
-            },
-            {
-              "source": "arXiv",
-              "value": "RIKEN-iTHEMS-Report-23"
-            }
-          ],
-          "citation_count_without_self_citations": 7,
           "citeable": true,
           "copyright": [
             {
@@ -28622,12 +28623,10 @@
               "value": "2305.04984"
             }
           ]
-        },
-        "updated": "2026-02-09T13:25:36.311905+00:00"
+        }
       },
       {
-        "id": "2066498",
-        "created": "2022-04-14T02:48:41.978796+00:00",
+        "updated": "2025-07-11T18:33:48.486386+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/2066498?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/2066498?format=latex-eu",
@@ -28637,8 +28636,10 @@
           "cv": "https://inspirehep.net/api/literature/2066498?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A2066498"
         },
+        "id": "2066498",
+        "created": "2022-04-14T02:48:41.978796+00:00",
         "metadata": {
-          "citation_count": 10,
+          "citation_count_without_self_citations": 8,
           "publication_info": [
             {
               "journal_volume": "09",
@@ -28659,6 +28660,13 @@
               "url": "https://inspirehep.net/files/c5007ee4887ca92451885fb74deefdb9"
             }
           ],
+          "report_numbers": [
+            {
+              "source": "arXiv",
+              "value": "KUNS-2922"
+            }
+          ],
+          "citation_count": 10,
           "authors": [
             {
               "raw_affiliations": [
@@ -28748,13 +28756,6 @@
               "recid": 982618
             }
           ],
-          "report_numbers": [
-            {
-              "source": "arXiv",
-              "value": "KUNS-2922"
-            }
-          ],
-          "citation_count_without_self_citations": 8,
           "citeable": true,
           "$schema": "https://inspirehep.net/schemas/records/hep.json",
           "keywords": [
@@ -29779,12 +29780,10 @@
               "value": "2204.06391"
             }
           ]
-        },
-        "updated": "2025-07-11T18:33:48.486386+00:00"
+        }
       },
       {
-        "id": "1995114",
-        "created": "2021-12-22T03:16:14.652081+00:00",
+        "updated": "2023-10-03T09:26:51.992632+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/1995114?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/1995114?format=latex-eu",
@@ -29794,8 +29793,10 @@
           "cv": "https://inspirehep.net/api/literature/1995114?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1995114"
         },
+        "id": "1995114",
+        "created": "2021-12-22T03:16:14.652081+00:00",
         "metadata": {
-          "citation_count": 15,
+          "citation_count_without_self_citations": 11,
           "publication_info": [
             {
               "journal_volume": "03",
@@ -29816,6 +29817,13 @@
               "url": "https://inspirehep.net/files/826b77f82cdbe81d42ac9eb450d38a67"
             }
           ],
+          "report_numbers": [
+            {
+              "source": "arXiv",
+              "value": "KUNS-2910"
+            }
+          ],
+          "citation_count": 15,
           "authors": [
             {
               "raw_affiliations": [
@@ -29961,13 +29969,6 @@
               "recid": 982618
             }
           ],
-          "report_numbers": [
-            {
-              "source": "arXiv",
-              "value": "KUNS-2910"
-            }
-          ],
-          "citation_count_without_self_citations": 11,
           "citeable": true,
           "$schema": "https://inspirehep.net/schemas/records/hep.json",
           "keywords": [
@@ -30702,12 +30703,10 @@
               "value": "2112.11276"
             }
           ]
-        },
-        "updated": "2023-10-03T09:26:51.992632+00:00"
+        }
       },
       {
-        "id": "1866167",
-        "created": "2021-06-01T00:00:00+00:00",
+        "updated": "2023-10-03T09:17:24.917322+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/1866167?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/1866167?format=latex-eu",
@@ -30717,8 +30716,10 @@
           "cv": "https://inspirehep.net/api/literature/1866167?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1866167"
         },
+        "id": "1866167",
+        "created": "2021-06-01T00:00:00+00:00",
         "metadata": {
-          "citation_count": 15,
+          "citation_count_without_self_citations": 10,
           "publication_info": [
             {
               "journal_volume": "09",
@@ -30739,6 +30740,13 @@
               "url": "https://inspirehep.net/files/4cc9d995be6f151bd3b640ba16308d80"
             }
           ],
+          "report_numbers": [
+            {
+              "source": "arXiv",
+              "value": "KUNS-2878"
+            }
+          ],
+          "citation_count": 15,
           "authors": [
             {
               "raw_affiliations": [
@@ -30880,13 +30888,6 @@
               "recid": 982618
             }
           ],
-          "report_numbers": [
-            {
-              "source": "arXiv",
-              "value": "KUNS-2878"
-            }
-          ],
-          "citation_count_without_self_citations": 10,
           "citeable": true,
           "$schema": "https://inspirehep.net/schemas/records/hep.json",
           "keywords": [
@@ -32115,12 +32116,10 @@
               "value": "2105.14920"
             }
           ]
-        },
-        "updated": "2023-10-03T09:17:24.917322+00:00"
+        }
       },
       {
-        "id": "1836407",
-        "created": "2020-12-15T00:00:00+00:00",
+        "updated": "2023-10-03T08:48:08.884202+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/1836407?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/1836407?format=latex-eu",
@@ -32130,8 +32129,10 @@
           "cv": "https://inspirehep.net/api/literature/1836407?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1836407"
         },
+        "id": "1836407",
+        "created": "2020-12-15T00:00:00+00:00",
         "metadata": {
-          "citation_count": 22,
+          "citation_count_without_self_citations": 15,
           "publication_info": [
             {
               "journal_volume": "02",
@@ -32153,6 +32154,13 @@
               "url": "https://inspirehep.net/files/2b5d9d9f908996c140a2acb8b0df5aee"
             }
           ],
+          "report_numbers": [
+            {
+              "source": "arXiv",
+              "value": "KUNS-2847"
+            }
+          ],
+          "citation_count": 22,
           "authors": [
             {
               "raw_affiliations": [
@@ -32294,13 +32302,6 @@
               "recid": 982618
             }
           ],
-          "report_numbers": [
-            {
-              "source": "arXiv",
-              "value": "KUNS-2847"
-            }
-          ],
-          "citation_count_without_self_citations": 15,
           "citeable": true,
           "$schema": "https://inspirehep.net/schemas/records/hep.json",
           "keywords": [
@@ -32942,12 +32943,10 @@
               "value": "2012.07370"
             }
           ]
-        },
-        "updated": "2023-10-03T08:48:08.884202+00:00"
+        }
       },
       {
-        "id": "1795138",
-        "created": "2020-05-12T00:00:00+00:00",
+        "updated": "2023-11-08T09:06:22.765547+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/1795138?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/1795138?format=latex-eu",
@@ -32957,8 +32956,10 @@
           "cv": "https://inspirehep.net/api/literature/1795138?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1795138"
         },
+        "id": "1795138",
+        "created": "2020-05-12T00:00:00+00:00",
         "metadata": {
-          "citation_count": 28,
+          "citation_count_without_self_citations": 20,
           "publication_info": [
             {
               "journal_volume": "09",
@@ -32980,6 +32981,13 @@
               "url": "https://inspirehep.net/files/bda0e9b4e9325b644a5c6658d35d8d5f"
             }
           ],
+          "report_numbers": [
+            {
+              "source": "arXiv",
+              "value": "KUNS-2817"
+            }
+          ],
+          "citation_count": 28,
           "authors": [
             {
               "raw_affiliations": [
@@ -33119,13 +33127,6 @@
               "recid": 982618
             }
           ],
-          "report_numbers": [
-            {
-              "source": "arXiv",
-              "value": "KUNS-2817"
-            }
-          ],
-          "citation_count_without_self_citations": 20,
           "citeable": true,
           "$schema": "https://inspirehep.net/schemas/records/hep.json",
           "keywords": [
@@ -33899,12 +33900,10 @@
               "value": "2005.04950"
             }
           ]
-        },
-        "updated": "2023-11-08T09:06:22.765547+00:00"
+        }
       },
       {
-        "id": "1785672",
-        "created": "2020-03-17T00:00:00+00:00",
+        "updated": "2023-10-03T09:30:47.944560+00:00",
         "links": {
           "bibtex": "https://inspirehep.net/api/literature/1785672?format=bibtex",
           "latex-eu": "https://inspirehep.net/api/literature/1785672?format=latex-eu",
@@ -33914,8 +33913,10 @@
           "cv": "https://inspirehep.net/api/literature/1785672?format=cv",
           "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1785672"
         },
+        "id": "1785672",
+        "created": "2020-03-17T00:00:00+00:00",
         "metadata": {
-          "citation_count": 30,
+          "citation_count_without_self_citations": 22,
           "publication_info": [
             {
               "journal_volume": "957",
@@ -33933,6 +33934,13 @@
               "url": "https://inspirehep.net/files/e63a69c92d9d62f41e6cc01c63d0726e"
             }
           ],
+          "report_numbers": [
+            {
+              "source": "arXiv",
+              "value": "KUNS-2802"
+            }
+          ],
+          "citation_count": 30,
           "authors": [
             {
               "raw_affiliations": [
@@ -34051,13 +34059,6 @@
               "recid": 982618
             }
           ],
-          "report_numbers": [
-            {
-              "source": "arXiv",
-              "value": "KUNS-2802"
-            }
-          ],
-          "citation_count_without_self_citations": 22,
           "citeable": true,
           "copyright": [
             {
@@ -35258,8 +35259,7 @@
             }
           ],
           "curated": true
-        },
-        "updated": "2023-10-03T09:30:47.944560+00:00"
+        }
       }
     ],
     "total": 16

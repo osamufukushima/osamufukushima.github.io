@@ -1,4 +1,23 @@
 ---
+- id: arxiv:2608.05146
+  type: article
+  date: '2026-08-05'
+  title: Machine-Learning Search for Lax Connections
+  title_latex: Machine-Learning Search for Lax Connections
+  title_html: Machine-Learning Search for Lax Connections
+  authors:
+  - Fukushima, Osamu
+  - Shigemura, Tomohiro
+  - Suda, Ryosuke
+  - Tanahashi, Norihiro
+  - Yoshida, Kentaroh
+  arxiv: '2608.05146'
+  primary_class: hep-th
+  inspire_id: 3187940
+  inspire_url: https://inspirehep.net/literature/3187940
+  source: inspire
+  updated_at: '2026-08-11T07:29:14Z'
+
 - id: arxiv:2602.04662
   type: article
   date: 2026-06
@@ -22,7 +41,161 @@
   inspire_id: 3115463
   inspire_url: https://inspirehep.net/literature/3115463
   source: inspire
+  updated_at: '2026-08-11T07:29:14Z'
+
+- id: arxiv:2509.22080
+  type: article
+  date: 2026-01
+  title: The Courant-Hilbert construction in 4D Chern-Simons theory
+  title_latex: The Courant-Hilbert construction in 4D Chern-Simons theory
+  title_html: The Courant-Hilbert construction in 4D Chern-Simons theory
+  authors:
+  - Fukushima, Osamu
+  - Matsumoto, Takaki
+  - Yoshida, Kentaroh
+  journal:
+    title: JHEP
+    volume: '01'
+    page: '122'
+    year: 2026
+  journal_html: JHEP, <b>01</b>, 122 (2026).
+  journal_url: https://doi.org/10.1007/JHEP01(2026)122
+  doi: 10.1007/JHEP01(2026)122
+  arxiv: '2509.22080'
+  primary_class: hep-th
+  inspire_id: 2973941
+  inspire_url: https://inspirehep.net/literature/2973941
+  source: inspire
   updated_at: '2026-08-11T06:05:33Z'
+
+- id: arxiv:2509.01931
+  type: article
+  date: 2026-06
+  title: Eigenstate Thermalization Hypothesis with projective representation
+  title_latex: Eigenstate Thermalization Hypothesis with projective representation
+  title_html: Eigenstate Thermalization Hypothesis with projective representation
+  authors:
+  - Onoda, Soma
+  - Fukushima, Osamu
+  - Hamazaki, Ryusuke
+  - Morikawa, Okuto
+  journal:
+    title: JHEP
+    volume: '06'
+    page: '138'
+    year: 2026
+  journal_html: JHEP, <b>06</b>, 138 (2026).
+  journal_url: https://doi.org/10.1007/JHEP06(2026)138
+  doi: 10.1007/JHEP06(2026)138
+  arxiv: '2509.01931'
+  primary_class: hep-th
+  inspire_id: 2966138
+  inspire_url: https://inspirehep.net/literature/2966138
+  source: inspire
+  updated_at: '2026-08-11T06:05:33Z'
+
+- id: arxiv:2411.04754
+  type: article
+  date: '2024-11-07'
+  title: Scaling law for membrane lifetime
+  title_latex: Scaling law for membrane lifetime
+  title_html: Scaling law for membrane lifetime
+  authors:
+  - Fukushima, Osamu
+  - Shigemura, Tomohiro
+  - Yoshida, Kentaroh
+  journal:
+    title: Nucl.Phys.B
+    volume: '1017'
+    page: '116946'
+    year: 2025
+  journal_html: Nucl.Phys.B, <b>1017</b>, 116946 (2025).
+  journal_url: https://doi.org/10.1016/j.nuclphysb.2025.116946
+  doi: 10.1016/j.nuclphysb.2025.116946
+  arxiv: '2411.04754'
+  primary_class: hep-th
+  inspire_id: 2846306
+  inspire_url: https://inspirehep.net/literature/2846306
+  source: inspire
+  updated_at: '2026-08-06T10:55:33Z'
+
+- id: arxiv:2407.02204
+  type: article
+  date: 2025-09
+  title: 4D Chern-Simons theory with auxiliary fields
+  title_latex: 4D Chern-Simons theory with auxiliary fields
+  title_html: 4D Chern-Simons theory with auxiliary fields
+  authors:
+  - Fukushima, Osamu
+  - Yoshida, Kentaroh
+  journal:
+    title: JHEP
+    volume: '09'
+    page: '001'
+    year: 2025
+  journal_html: JHEP, <b>09</b>, 001 (2025).
+  journal_url: https://doi.org/10.1007/JHEP09(2025)001
+  doi: 10.1007/JHEP09(2025)001
+  arxiv: '2407.02204'
+  primary_class: hep-th
+  inspire_id: 2803954
+  inspire_url: https://inspirehep.net/literature/2803954
+  source: inspire
+  updated_at: '2026-08-06T10:55:33Z'
+
+- id: arxiv:2310.11425
+  type: article
+  date: '2023-10-17'
+  title: Remarks on Effects of Projective Phase on Eigenstate Thermalization Hypothesis
+  title_latex: Remarks on Effects of Projective Phase on Eigenstate Thermalization
+    Hypothesis
+  title_html: Remarks on Effects of Projective Phase on Eigenstate Thermalization
+    Hypothesis
+  authors:
+  - Fukushima, Osamu
+  journal:
+    title: PTEP
+    volume: '2024'
+    issue: '4'
+    page: 043B03
+    year: 2024
+  journal_html: PTEP, <b>2024</b>, no.4, 043B03 (2024).
+  journal_url: https://doi.org/10.1093/ptep/ptae039
+  doi: 10.1093/ptep/ptae039
+  arxiv: '2310.11425'
+  primary_class: hep-th
+  inspire_id: 2711884
+  inspire_url: https://inspirehep.net/literature/2711884
+  source: inspire
+  updated_at: '2026-08-06T10:55:33Z'
+
+- id: arxiv:2305.04984
+  type: article
+  date: '2023-05-08'
+  title: Violation of Eigenstate Thermalization Hypothesis in Quantum Field Theories
+    with Higher-Form Symmetry
+  title_latex: Violation of Eigenstate Thermalization Hypothesis in Quantum Field
+    Theories with Higher-Form Symmetry
+  title_html: Violation of Eigenstate Thermalization Hypothesis in Quantum Field Theories
+    with Higher-Form Symmetry
+  authors:
+  - Fukushima, Osamu
+  - Hamazaki, Ryusuke
+  journal:
+    title: Phys.Rev.Lett.
+    volume: '131'
+    issue: '13'
+    page: '131602'
+    year: 2023
+  journal_html: Phys.Rev.Lett., <b>131</b>, no.13, 131602 (2023).
+  journal_url: https://doi.org/10.1103/PhysRevLett.131.131602
+  doi: 10.1103/PhysRevLett.131.131602
+  arxiv: '2305.04984'
+  primary_class: cond-mat.stat-mech
+  inspire_id: 2704718
+  inspire_url: https://inspirehep.net/literature/2704718
+  source: inspire
+  updated_at: '2026-08-06T10:55:33Z'
 
 - id: arxiv:2204.06391
   type: article
@@ -48,30 +221,78 @@
   source: inspire
   updated_at: '2026-08-06T10:55:33Z'
 
-- id: arxiv:2003.07309
+- id: arxiv:2112.11276
   type: article
-  date: '2020-03-19'
-  title: Comments on $\eta$-deformed principal chiral model from 4D Chern-Simons theory
-  title_latex: Comments on $\eta$-deformed principal chiral model from 4D Chern-Simons
-    theory
-  title_html: Comments on \(\eta\)-deformed principal chiral model from 4D Chern-Simons
-    theory
+  date: 2022-03
+  title: Non-Abelian Toda field theories from a 4D Chern-Simons theory
+  title_latex: Non-Abelian Toda field theories from a 4D Chern-Simons theory
+  title_html: Non-Abelian Toda field theories from a 4D Chern-Simons theory
   authors:
   - Fukushima, Osamu
   - Sakamoto, Jun-ichi
   - Yoshida, Kentaroh
   journal:
-    title: Nucl.Phys.B
-    volume: '957'
-    page: '115080'
-    year: 2020
-  journal_html: Nucl.Phys.B, <b>957</b>, 115080 (2020).
-  journal_url: https://doi.org/10.1016/j.nuclphysb.2020.115080
-  doi: 10.1016/j.nuclphysb.2020.115080
-  arxiv: '2003.07309'
+    title: JHEP
+    volume: '03'
+    page: '158'
+    year: 2022
+  journal_html: JHEP, <b>03</b>, 158 (2022).
+  journal_url: https://doi.org/10.1007/JHEP03(2022)158
+  doi: 10.1007/JHEP03(2022)158
+  arxiv: '2112.11276'
   primary_class: hep-th
-  inspire_id: 1785672
-  inspire_url: https://inspirehep.net/literature/1785672
+  inspire_id: 1995114
+  inspire_url: https://inspirehep.net/literature/1995114
+  source: inspire
+  updated_at: '2026-08-06T10:55:33Z'
+
+- id: arxiv:2105.14920
+  type: article
+  date: 2021-09
+  title: Integrable deformed T$^{1,1}$ sigma models from 4D Chern-Simons theory
+  title_latex: Integrable deformed T$^{1,1}$ sigma models from 4D Chern-Simons theory
+  title_html: Integrable deformed T\(^{1,1}\) sigma models from 4D Chern-Simons theory
+  authors:
+  - Fukushima, Osamu
+  - Sakamoto, Jun-ichi
+  - Yoshida, Kentaroh
+  journal:
+    title: JHEP
+    volume: '09'
+    page: '037'
+    year: 2021
+  journal_html: JHEP, <b>09</b>, 037 (2021).
+  journal_url: https://doi.org/10.1007/JHEP09(2021)037
+  doi: 10.1007/JHEP09(2021)037
+  arxiv: '2105.14920'
+  primary_class: hep-th
+  inspire_id: 1866167
+  inspire_url: https://inspirehep.net/literature/1866167
+  source: inspire
+  updated_at: '2026-08-06T10:55:33Z'
+
+- id: arxiv:2012.07370
+  type: article
+  date: 2021-02
+  title: Faddeev-Reshetikhin model from a 4D Chern-Simons theory
+  title_latex: Faddeev-Reshetikhin model from a 4D Chern-Simons theory
+  title_html: Faddeev-Reshetikhin model from a 4D Chern-Simons theory
+  authors:
+  - Fukushima, Osamu
+  - Sakamoto, Jun-Ichi
+  - Yoshida, Kentaroh
+  journal:
+    title: JHEP
+    volume: '02'
+    page: '115'
+    year: 2021
+  journal_html: JHEP, <b>02</b>, 115 (2021).
+  journal_url: https://doi.org/10.1007/JHEP02(2021)115
+  doi: 10.1007/JHEP02(2021)115
+  arxiv: '2012.07370'
+  primary_class: hep-th
+  inspire_id: 1836407
+  inspire_url: https://inspirehep.net/literature/1836407
   source: inspire
   updated_at: '2026-08-06T10:55:33Z'
 
@@ -103,253 +324,44 @@
   source: inspire
   updated_at: '2026-08-06T10:55:33Z'
 
-- id: arxiv:2012.07370
+- id: arxiv:2003.07309
   type: article
-  date: 2021-02
-  title: Faddeev-Reshetikhin model from a 4D Chern-Simons theory
-  title_latex: Faddeev-Reshetikhin model from a 4D Chern-Simons theory
-  title_html: Faddeev-Reshetikhin model from a 4D Chern-Simons theory
-  authors:
-  - Fukushima, Osamu
-  - Sakamoto, Jun-Ichi
-  - Yoshida, Kentaroh
-  journal:
-    title: JHEP
-    volume: '02'
-    page: '115'
-    year: 2021
-  journal_html: JHEP, <b>02</b>, 115 (2021).
-  journal_url: https://doi.org/10.1007/JHEP02(2021)115
-  doi: 10.1007/JHEP02(2021)115
-  arxiv: '2012.07370'
-  primary_class: hep-th
-  inspire_id: 1836407
-  inspire_url: https://inspirehep.net/literature/1836407
-  source: inspire
-  updated_at: '2026-08-06T10:55:33Z'
-
-- id: arxiv:2105.14920
-  type: article
-  date: 2021-09
-  title: Integrable deformed T$^{1,1}$ sigma models from 4D Chern-Simons theory
-  title_latex: Integrable deformed T$^{1,1}$ sigma models from 4D Chern-Simons theory
-  title_html: Integrable deformed T\(^{1,1}\) sigma models from 4D Chern-Simons theory
+  date: '2020-03-19'
+  title: Comments on $\eta$-deformed principal chiral model from 4D Chern-Simons theory
+  title_latex: Comments on $\eta$-deformed principal chiral model from 4D Chern-Simons
+    theory
+  title_html: Comments on \(\eta\)-deformed principal chiral model from 4D Chern-Simons
+    theory
   authors:
   - Fukushima, Osamu
   - Sakamoto, Jun-ichi
-  - Yoshida, Kentaroh
-  journal:
-    title: JHEP
-    volume: '09'
-    page: '037'
-    year: 2021
-  journal_html: JHEP, <b>09</b>, 037 (2021).
-  journal_url: https://doi.org/10.1007/JHEP09(2021)037
-  doi: 10.1007/JHEP09(2021)037
-  arxiv: '2105.14920'
-  primary_class: hep-th
-  inspire_id: 1866167
-  inspire_url: https://inspirehep.net/literature/1866167
-  source: inspire
-  updated_at: '2026-08-06T10:55:33Z'
-
-- id: arxiv:2112.11276
-  type: article
-  date: 2022-03
-  title: Non-Abelian Toda field theories from a 4D Chern-Simons theory
-  title_latex: Non-Abelian Toda field theories from a 4D Chern-Simons theory
-  title_html: Non-Abelian Toda field theories from a 4D Chern-Simons theory
-  authors:
-  - Fukushima, Osamu
-  - Sakamoto, Jun-ichi
-  - Yoshida, Kentaroh
-  journal:
-    title: JHEP
-    volume: '03'
-    page: '158'
-    year: 2022
-  journal_html: JHEP, <b>03</b>, 158 (2022).
-  journal_url: https://doi.org/10.1007/JHEP03(2022)158
-  doi: 10.1007/JHEP03(2022)158
-  arxiv: '2112.11276'
-  primary_class: hep-th
-  inspire_id: 1995114
-  inspire_url: https://inspirehep.net/literature/1995114
-  source: inspire
-  updated_at: '2026-08-06T10:55:33Z'
-
-- id: arxiv:2608.05146
-  type: article
-  date: '2026-08-05'
-  title: Machine-Learning Search for Lax Connections
-  title_latex: Machine-Learning Search for Lax Connections
-  title_html: Machine-Learning Search for Lax Connections
-  authors:
-  - Fukushima, Osamu
-  - Shigemura, Tomohiro
-  - Suda, Ryosuke
-  - Tanahashi, Norihiro
-  - Yoshida, Kentaroh
-  arxiv: '2608.05146'
-  primary_class: hep-th
-  inspire_id: 3187940
-  inspire_url: https://inspirehep.net/literature/3187940
-  source: inspire
-  updated_at: '2026-08-11T06:05:33Z'
-
-- id: arxiv:2305.04984
-  type: article
-  date: '2023-05-08'
-  title: Violation of Eigenstate Thermalization Hypothesis in Quantum Field Theories
-    with Higher-Form Symmetry
-  title_latex: Violation of Eigenstate Thermalization Hypothesis in Quantum Field
-    Theories with Higher-Form Symmetry
-  title_html: Violation of Eigenstate Thermalization Hypothesis in Quantum Field Theories
-    with Higher-Form Symmetry
-  authors:
-  - Fukushima, Osamu
-  - Hamazaki, Ryusuke
-  journal:
-    title: Phys.Rev.Lett.
-    volume: '131'
-    issue: '13'
-    page: '131602'
-    year: 2023
-  journal_html: Phys.Rev.Lett., <b>131</b>, no.13, 131602 (2023).
-  journal_url: https://doi.org/10.1103/PhysRevLett.131.131602
-  doi: 10.1103/PhysRevLett.131.131602
-  arxiv: '2305.04984'
-  primary_class: cond-mat.stat-mech
-  inspire_id: 2704718
-  inspire_url: https://inspirehep.net/literature/2704718
-  source: inspire
-  updated_at: '2026-08-06T10:55:33Z'
-
-- id: arxiv:2310.11425
-  type: article
-  date: '2023-10-17'
-  title: Remarks on Effects of Projective Phase on Eigenstate Thermalization Hypothesis
-  title_latex: Remarks on Effects of Projective Phase on Eigenstate Thermalization
-    Hypothesis
-  title_html: Remarks on Effects of Projective Phase on Eigenstate Thermalization
-    Hypothesis
-  authors:
-  - Fukushima, Osamu
-  journal:
-    title: PTEP
-    volume: '2024'
-    issue: '4'
-    page: 043B03
-    year: 2024
-  journal_html: PTEP, <b>2024</b>, no.4, 043B03 (2024).
-  journal_url: https://doi.org/10.1093/ptep/ptae039
-  doi: 10.1093/ptep/ptae039
-  arxiv: '2310.11425'
-  primary_class: hep-th
-  inspire_id: 2711884
-  inspire_url: https://inspirehep.net/literature/2711884
-  source: inspire
-  updated_at: '2026-08-06T10:55:33Z'
-
-- id: arxiv:2407.02204
-  type: article
-  date: 2025-09
-  title: 4D Chern-Simons theory with auxiliary fields
-  title_latex: 4D Chern-Simons theory with auxiliary fields
-  title_html: 4D Chern-Simons theory with auxiliary fields
-  authors:
-  - Fukushima, Osamu
-  - Yoshida, Kentaroh
-  journal:
-    title: JHEP
-    volume: '09'
-    page: '001'
-    year: 2025
-  journal_html: JHEP, <b>09</b>, 001 (2025).
-  journal_url: https://doi.org/10.1007/JHEP09(2025)001
-  doi: 10.1007/JHEP09(2025)001
-  arxiv: '2407.02204'
-  primary_class: hep-th
-  inspire_id: 2803954
-  inspire_url: https://inspirehep.net/literature/2803954
-  source: inspire
-  updated_at: '2026-08-06T10:55:33Z'
-
-- id: arxiv:2411.04754
-  type: article
-  date: '2024-11-07'
-  title: Scaling law for membrane lifetime
-  title_latex: Scaling law for membrane lifetime
-  title_html: Scaling law for membrane lifetime
-  authors:
-  - Fukushima, Osamu
-  - Shigemura, Tomohiro
   - Yoshida, Kentaroh
   journal:
     title: Nucl.Phys.B
-    volume: '1017'
-    page: '116946'
-    year: 2025
-  journal_html: Nucl.Phys.B, <b>1017</b>, 116946 (2025).
-  journal_url: https://doi.org/10.1016/j.nuclphysb.2025.116946
-  doi: 10.1016/j.nuclphysb.2025.116946
-  arxiv: '2411.04754'
+    volume: '957'
+    page: '115080'
+    year: 2020
+  journal_html: Nucl.Phys.B, <b>957</b>, 115080 (2020).
+  journal_url: https://doi.org/10.1016/j.nuclphysb.2020.115080
+  doi: 10.1016/j.nuclphysb.2020.115080
+  arxiv: '2003.07309'
   primary_class: hep-th
-  inspire_id: 2846306
-  inspire_url: https://inspirehep.net/literature/2846306
+  inspire_id: 1785672
+  inspire_url: https://inspirehep.net/literature/1785672
   source: inspire
   updated_at: '2026-08-06T10:55:33Z'
 
-- id: arxiv:2509.01931
-  type: article
-  date: 2026-06
-  title: Eigenstate Thermalization Hypothesis with projective representation
-  title_latex: Eigenstate Thermalization Hypothesis with projective representation
-  title_html: Eigenstate Thermalization Hypothesis with projective representation
+- id: thesis:master-2021
+  type: thesis
+  date: 2021-02
+  title: 可積分模型の統一理論としての4次元Chern-Simons理論
+  title_latex: 可積分模型の統一理論としての4次元Chern-Simons理論
+  title_html: 可積分模型の統一理論としての4次元Chern-Simons理論
   authors:
-  - Onoda, Soma
-  - Fukushima, Osamu
-  - Hamazaki, Ryusuke
-  - Morikawa, Okuto
-  journal:
-    title: JHEP
-    volume: '06'
-    page: '138'
-    year: 2026
-  journal_html: JHEP, <b>06</b>, 138 (2026).
-  journal_url: https://doi.org/10.1007/JHEP06(2026)138
-  doi: 10.1007/JHEP06(2026)138
-  arxiv: '2509.01931'
-  primary_class: hep-th
-  inspire_id: 2966138
-  inspire_url: https://inspirehep.net/literature/2966138
-  source: inspire
-  updated_at: '2026-08-11T06:05:33Z'
-
-- id: arxiv:2509.22080
-  type: article
-  date: 2026-01
-  title: The Courant-Hilbert construction in 4D Chern-Simons theory
-  title_latex: The Courant-Hilbert construction in 4D Chern-Simons theory
-  title_html: The Courant-Hilbert construction in 4D Chern-Simons theory
-  authors:
-  - Fukushima, Osamu
-  - Matsumoto, Takaki
-  - Yoshida, Kentaroh
-  journal:
-    title: JHEP
-    volume: '01'
-    page: '122'
-    year: 2026
-  journal_html: JHEP, <b>01</b>, 122 (2026).
-  journal_url: https://doi.org/10.1007/JHEP01(2026)122
-  doi: 10.1007/JHEP01(2026)122
-  arxiv: '2509.22080'
-  primary_class: hep-th
-  inspire_id: 2973941
-  inspire_url: https://inspirehep.net/literature/2973941
-  source: inspire
-  updated_at: '2026-08-11T06:05:33Z'
+  - Osamu Fukushima
+  thesis_type: Master Thesis
+  url: "./master_thesis_v3.pdf"
+  source: manual
 
 - id: book:higher-form-symmetry-eth
   type: book
@@ -366,16 +378,4 @@
   - 978-981-96-1643-5
   url: https://link.springer.com/book/10.1007/978-981-96-1643-5
   note: Ph.D thesis
-  source: manual
-
-- id: thesis:master-2021
-  type: thesis
-  date: 2021-02
-  title: 可積分模型の統一理論としての4次元Chern-Simons理論
-  title_latex: 可積分模型の統一理論としての4次元Chern-Simons理論
-  title_html: 可積分模型の統一理論としての4次元Chern-Simons理論
-  authors:
-  - Osamu Fukushima
-  thesis_type: Master Thesis
-  url: "./master_thesis_v3.pdf"
   source: manual

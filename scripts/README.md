@@ -33,6 +33,20 @@ To regenerate all `title_html` values from `title_latex`, run:
 ruby scripts/normalize_publication_titles.rb --force-html
 ```
 
+## Sort publication articles by arXiv id
+
+```sh
+ruby scripts/sort_publication_articles.rb
+```
+
+This sorts only `type: article` records in `_data/publications.yml` by arXiv id
+descending. Non-article records keep their current positions. To check without
+rewriting the file:
+
+```sh
+ruby scripts/sort_publication_articles.rb --check
+```
+
 ## Render HTML from YAML
 
 ```sh
