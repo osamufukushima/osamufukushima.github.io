@@ -92,6 +92,32 @@ def normalized_date(metadata)
   year || "9999"
 end
 
+def arxiv_sort_key(arxiv, fallback_date)
+  text = arxiv.to_s
+  if text.match?(/\A(\d{2})(\d{2})\.(\d+)(?:v\d+)?\z/)
+    year = Regexp.last_match(1).to_i
+    year += year >= 90 ? 1900 : 2000
+    return [year, Regexp.last_match(2).to_i, Regexp.last_match(3).to_i]
+  end
+
+  if text.match?(%r{\A[^/]+/(\d{2})(\d{2})(\d+)(?:v\d+)?\z})
+    year = Regexp.last_match(1).to_i
+    year += year >= 90 ? 1900 : 2000
+    return [year, Regexp.last_match(2).to_i, Regexp.last_match(3).to_i]
+  end
+
+  date = fallback_date.to_s
+  if date.match?(/\A(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?\z/)
+    return [
+      Regexp.last_match(1).to_i,
+      (Regexp.last_match(2) || "1").to_i,
+      (Regexp.last_match(3) || "0").to_i
+    ]
+  end
+
+  [0, 0, 0]
+end
+
 def journal_from(metadata)
   info = Array(metadata["publication_info"]).first || {}
   return nil if info.empty?
@@ -273,7 +299,7 @@ preserved = existing.reject do |entry|
   merged_keys[record_key(entry)] || candidate_keys(entry).any? { |key| skipped_keys[key] }
 end
 
-output = (merged_articles + preserved).sort_by { |entry| entry["date"].to_s }.reverse
+output = (merged_articles + preserved).sort_by { |entry| arxiv_sort_key(entry["arxiv"], entry["date"]) }.reverse
 write_yaml(options[:output], output)
 puts "Updated #{options[:output]} with #{merged_articles.length} INSPIRE article records."
 puts "Skipped #{skipped_records} non-article INSPIRE record(s) (#{skipped_keys.length} identifier(s))."

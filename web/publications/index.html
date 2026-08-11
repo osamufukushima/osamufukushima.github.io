@@ -63,7 +63,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 <section>
 <h2>Publications</h2>
 
-{% assign articles = site.data.publications | where: "type", "article" | sort: "date" | reverse %}
+{% assign articles = site.data.publications | where: "type", "article" %}
 {% assign books = site.data.publications | where: "type", "book" | sort: "date" | reverse %}
 {% assign theses = site.data.publications | where: "type", "thesis" | sort: "date" | reverse %}
 

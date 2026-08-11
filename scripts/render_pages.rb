@@ -177,7 +177,7 @@ end
 def render_publications
   publications = load_array(File.join(DATA_DIR, "publications.yml"))
   grouped = publications.group_by { |item| item["type"] }
-  articles = Array(grouped["article"]).sort_by { |item| sort_key(item) }.reverse
+  articles = Array(grouped["article"])
   books = Array(grouped["book"]).sort_by { |item| sort_key(item) }.reverse
   theses = Array(grouped["thesis"]).sort_by { |item| sort_key(item) }.reverse
 
