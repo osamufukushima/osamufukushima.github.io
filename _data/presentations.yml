@@ -90,6 +90,14 @@
   venue: "online"
   presentation_type: "talk"
 
+- id: "talk-2026-09-15-jps-81"
+  category: "domestic_conference_japan"
+  date: "2026-09-15"
+  title: "4次元 Chern-Simons理論における可積分シグマ模型のCourant-Hilbert構成"
+  event: "日本物理学会第81回年次大会"
+  venue: "東京大学駒場キャンパス"
+  presentation_type: "talk"
+
 - id: "talk-2024-09-16-jps-79"
   category: "domestic_conference_japan"
   date: "2024-09-16"
