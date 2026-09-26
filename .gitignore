@@ -7,3 +7,6 @@ web/**/index.generated.html
 # Personal CV
 scripts/render_cv_tex.rb
 CV/
+
+# Old versions of the site
+old/

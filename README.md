@@ -127,6 +127,12 @@ generated static HTML, run:
 ruby scripts/render_pages.rb --in-place
 ```
 
+## Old Versions
+
+Store older versions in `old/` as needed, adding a date in `yyyymmdd` format
+to each filename (for example, `index_20260926.html`). These backups are
+optional and added when useful; they are not required for every update.
+
 ## Notes On Manual Edits
 
 Manual entries in `_data/publications.yml` are kept when `sync_inspire.rb` is
