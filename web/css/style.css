@@ -58,6 +58,12 @@ table {border-collapse:collapse;}
 /* Image setteing */
 img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
 
+/* Dog photos */
+.dog-photos {padding-left: 40px;}
+.dog-photos figure + figure {margin-top: 2em;}
+.dog-photo {text-align: center;}
+.dog-photo img {width: 80%;}
+
 /* Section setting */
 section {
 	margin-top: -50px
