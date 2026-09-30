@@ -1,4 +1,19 @@
 ---
+- id: arxiv:2609.35452
+  type: article
+  date: '2026-09-28'
+  title: A gravitational realization of Courant-Hilbert deformations
+  title_latex: A gravitational realization of Courant-Hilbert deformations
+  title_html: A gravitational realization of Courant-Hilbert deformations
+  authors:
+  - Fukushima, Osamu
+  - Kurihara, Miyabi
+  - Matsumoto, Takaki
+  - Yoshida, Kentaroh
+  arxiv: '2609.35452'
+  primary_class: hep-th
+  source: arxiv
+
 - id: arxiv:2608.05146
   type: article
   date: '2026-08-05'
